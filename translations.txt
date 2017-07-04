@@ -1,0 +1,9 @@
+﻿Origin: How are you doing?
+Translation: 你好吗？
+
+Origin: Do you want to drink a cup of coffee with me?
+Translation: 你想和我一起喝一杯咖啡吗？
+
+Origin: I like your hair
+Translation: 我喜欢你的头发
+
