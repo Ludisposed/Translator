@@ -22,6 +22,5 @@ def translate_string(inp):
         f.close()
 
 if __name__ == "__main__":
-    print translator.detect('Ik heb honger')
     inp = raw_input('What do you want to translate: ')
     translate_string(inp)
