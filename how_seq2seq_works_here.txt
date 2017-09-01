@@ -1,0 +1,9 @@
+Sorry Using Chinese Here
+
+Ok
+
+这里对模型循环了3000次
+主要的一段运行代码在最后倒数第二个模块
+
+这个模型中需要重置，反复运行这段训练代码的话会保存之前的训练结果
+sess.run(tf.global_variables_initializer())
