@@ -1,0 +1,1 @@
+from my_own_translator import MyTranslator
