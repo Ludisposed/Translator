@@ -1,0 +1,1 @@
+Sometimes we may want to go beyond the narrow confines of the APIs that are built into the platform and create something unique. Many times, we roll our own machine learning capabilities, using one of a number of off-the-shelf libraries or building directly on top of fast computation capabilities of Accelerate or Metal.
