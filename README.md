@@ -6,9 +6,13 @@ In this project I wanna use machine learning create a translator(but use words f
  - [ ] create ml model, train it
  - [ ] test the ml model
 
-now I have done(just copy other code) such things:
-* a simple seq2seq model, input and output all just numbers
-* in the seq2seq model I changed the orignal model's output as random sequence too
-  __so I have to change the loss function and maybe also train way__
+now I have done such things:
+* a simple seq2seq model, input and output all just sequences of numbers
+* changed the orignal seq2seq model's output to random sequence, so does the decode_target_length
+* changed the train function
+
+results:
+* about loss stoped at about 1.45
+* predicted outputs don'e has same length as target
 
 during translation, words will be encoded to sequence of numbers, so such simple model is the base of how it works
