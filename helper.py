@@ -1,5 +1,11 @@
 import numpy as np
 
+data = open('input.txt').read()
+chars = list(set(data))
+data_size, vocab_size = len(data), len(chars)
+char_to_ix = {ch:i for i, ch in enumerate(chars)}
+ix_to_char = {i:ch for i, ch in enumerate(chars)}
+
 def batch(inputs, max_sequence_length=None):
     """
     Args:
@@ -58,3 +64,26 @@ def random_sequences(length_from, length_to,
                               size=random_length()).tolist()
             for _ in range(batch_size)
         ]
+p = 0
+def generate_sequence(length, batch_size):
+
+    global p
+    sequence = []
+    for _ in range(0,batch_size):
+        if p + length + 1 >= len(data):
+            p = 0
+        sequence.append([char_to_ix[ch] for ch in data[p:p+length]])
+        p += length
+    while True:
+        yield sequence
+
+def decode(sequence):
+    s = ""
+    for i in sequence:
+        s += ix_to_char[i]
+    return s
+def encode(charecters):
+    s = []
+    for c in charecters:
+        s.append(char_to_ix[c])
+    return s
