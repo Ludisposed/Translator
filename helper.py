@@ -87,3 +87,50 @@ def encode(charecters):
     for c in charecters:
         s.append(char_to_ix[c])
     return s
+
+
+
+
+
+#en-fr
+
+
+def data_info(filename):
+    sentences = []
+    data = ""
+    with open(filename, 'r') as f:
+        for line in f:
+            sentences.append(line)
+            data += line.replace('\n',' ')
+    words = data.split(' ')
+    vocab_size = len(words)
+    char_to_ix = {ch:i for i, ch in enumerate(words)}
+    ix_to_char = {i:ch for i, ch in enumerate(words)}
+
+
+    n = int(len(sentences) * 0.9)
+    train_sentences = sentences[:n]
+    test_sentences = sentences[n:]
+
+    return train_sentences, test_sentences, vocab_size, char_to_ix, ix_to_char
+
+def sentence_sequence(sentence, c2x):
+    words = sentence.split(' ')[:-1]
+    sequence = []
+    for w in words:
+        sequence.append(c2x[w])
+    return sequence
+
+def generate_trans_sequence(sentences, c2x):
+
+    sequence = []
+    for sentence in sentences:
+        sequence.append(sentence_sequence(sentence, c2x))
+    while True:
+        yield sequence
+
+def decode_trans(language, sequence, x2c):
+    words = []
+    for s in sequence:
+        words.append(x2c[s])
+    return ' '.join(words)
