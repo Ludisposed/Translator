@@ -1,4 +1,5 @@
 from googletrans import Translator
+import sys
 
 def readfile(filename):
     words = []
@@ -21,7 +22,7 @@ def translate(words):
     vocabularies_s = set()
     vocabularies_d = set()
     for word in words:
-        word = word.strip('.!,:')
+        word = word.strip('.!,:;?*\n')
         translated_part = translator.translate(word, dest = 'en', src = 'nl')
         text += translated_part.text + ' '
         if word.isalpha():
@@ -32,7 +33,15 @@ def translate(words):
     return text, '\n'.join(sorted(list(vocabularies_s)) + [' '] + sorted(list(vocabularies_d)))
 
 if __name__ == "__main__":
-    filename = 'opgaves/00.txt'
+    if len(sys.argv) >= 2:
+        if 10 <= int(sys.argv[1]) <= 41:
+            filename = 'opgaves/{}.txt'.format(sys.argv[1])
+        elif 0 <= int(sys.argv[1]) < 10:
+            filename = 'opgaves/0{}.txt'.format(sys.argv[1])
+        else:
+            filename = 'opgaves/00.txt'
+    else:
+        filename = 'opgaves/00.txt'
     words = readfile(filename)
     text, vocabularies = translate(words)
     writefile(filename, text, vocabularies)
