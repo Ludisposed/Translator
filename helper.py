@@ -36,14 +36,19 @@ def create_dataset(en_sentences, fr_sentences):
 	X = []
 	Y = []
 
+	en_max_len = 0
+	fr_max_len = 0
+
 	for i in range(len(x)):
 		n1 = len(x[i])
 		n2 = len(y[i])
 
 		if abs(n1 - n2) <= 4 and max(n1,n2) <= 15:
+			en_max_len = en_max_len if n1 <= en_max_len else n1
+			fr_max_len = fr_max_len if n2 <= fr_max_len else n2
 			X.append(x[i])
 			Y.append(y[i])
-	return X, Y, en_word2idx, en_idx2word, en_vocab, fr_word2idx, fr_idx2word, fr_vocab
+	return X, Y, en_word2idx, en_idx2word, en_vocab, en_max_len, fr_word2idx, fr_idx2word, fr_vocab, fr_max_len
 
 def batch(inputs):
 	sequence_lengths = [len(seq) for seq in inputs]

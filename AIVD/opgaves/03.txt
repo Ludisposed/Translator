@@ -1,0 +1,10 @@
+Opgave 3
+
+(1) a. Vind de paren waaruit de onderstaande opsomming is afgeleid. Er ontbreken enkele letters in de opsomming, welke letters zijn dit?
+
+ABDEJRSTU FKNPS DGHIKLRT BDGHIJNPRST BGINPRSTU ABERU DEKLNRSVY
+
+(1) b. We zoeken een getal met 7 verschillende cijfers. De som van de eerste zeven cijfers is 40, het product is 0. De som van de middelste zeven cijfers is 30, het product is 0. Voor de middelste vijf cijfers is dit 25 respectievelijk 448. De som van de laatse zeven cijfers is 32, het product is 6400.
+
+In combinatie met de letters uit het eerste onderdeel, levert dit een toepasselijke oplossing. Wat zoeken we?
+

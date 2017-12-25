@@ -1,0 +1,8 @@
+Opgave 26
+
+Soms moet je gewoon even geduld hebben. 
+(1) a. Maak af (geduld kan noodzakelijk blijken):
+R(2), SOY(15), D(15), M(2), MG(2), NR(1), MG(3), WAU(7)... 
+(1) b. Welke werd het (schrijf voluit)?
+AO, CK, FE, LT, KP, ML, MV, RT, VB, WZ
+

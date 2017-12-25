@@ -1,0 +1,6 @@
+Opgave 27
+
+(3) Vijftig van de vierenvijftig woorden vielen van het bord. De woorden op het bord behoren tot vijf groepen. Onder de gevallen woorden zijn respectievelijk acht woorden uit de eerste groep, negen woorden uit de tweede groep, etcetera. Het ordeningsprincipe was niet altijd hetzelfde, al volgen operaties als sorteren de normale conventies. Maak het bord weer compleet.
+Zo ziet het bord er nu uit:
+
+Dit zijn de gevallen woorden:

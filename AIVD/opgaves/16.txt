@@ -1,0 +1,3 @@
+Opgave 16
+
+(3) Hieronder staat het verloop van een spelletje waarvan we de naam even kwijt zijn. Helaas is ook een deel van de zetten weggevallen. De puzzelmakers hebben een vrij simpele strategie gebruikt. Regel n geeft de toestand na zet n weer. Wat is de eindstand in punten?

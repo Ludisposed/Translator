@@ -1,0 +1,6 @@
+Opgave 1
+
+Wat komt op het vraagteken?
+(1) a. 0 - dubio, 1 - baron, 2 - bosje, 3 - risee, 4 - reeks, 5 - ?
+(1) b. 0 - bisschopsmuts, 0 - joodsorthodox, 1 - voorjaarsdooi, 8 - dennennaalden, 13 - ?
+

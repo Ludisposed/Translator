@@ -1,0 +1,14 @@
+Opgave 5
+
+Een bericht is als volgt gecodeerd: a = 188461, b = 565383, d = 696149, e = 88447, g = 265341, h = 796023, i = 388069, l = 164207, n = 492621, o = 477863, s = 433589, t = 300767, u = 902301. Per woord is steeds het totaal van de letters berekend. Om het nog iets moeilijker te maken, zijn van dat totaal steeds alleen de laatste 6 cijfers gegeven.
+
+Voorbeeld: LASTIG HE
+
+164207 + 188461 + 433589 + 300767 + 388069 + 265341 = 1740434 796023 + 88447 = 884470
+
+Gegeven is 740434, 884470
+
+(3) Wat is bij het onderstaande bericht de oorspronkelijke tekst?
+
+696318 994738 186634 937474 818450 387210 184092 377231 999091 293830 725605 893049 394922
+

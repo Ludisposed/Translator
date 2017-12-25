@@ -1,0 +1,7 @@
+Opgave 10
+
+(1) a. Welk getal ontbreekt in het onderstaande rijtje? 601, 422, 589, 722, 425, 806, 217, 812, 339, ...
+
+(2) b. Geef het ontbrekende getal en geef aan op welke plek het hoort in de juiste volgorde. 11621, 13014, 13139, 13737, 22165, 22890, 26021, 26217,
+39258, 39510, 42645, 44330, 51558, 51866, 52396
+

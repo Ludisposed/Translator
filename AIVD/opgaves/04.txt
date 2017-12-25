@@ -1,0 +1,6 @@
+Opgave 4
+
+(1) Welke getallen horen in de onderstaande lijst op plekken a, b en c?
+
+7 3 4 1 4 2 3 3 4 3 4 1 3 3 3 3 8 1 a b c 
+

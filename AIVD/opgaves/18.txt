@@ -1,0 +1,3 @@
+Opgave 18
+
+(1+) Maak een tekst waarin iedere voorkomende letter precies even vaak voorkomt. Minimaal vijf keer iedere letter voor de standaardpunt. Bonuspunten zijn te verdienen op basis van de amusementswaarde van je antwoord.
