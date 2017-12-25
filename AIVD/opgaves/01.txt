@@ -4,3 +4,25 @@ Wat komt op het vraagteken?
 (1) a. 0 - dubio, 1 - baron, 2 - bosje, 3 - risee, 4 - reeks, 5 - ?
 (1) b. 0 - bisschopsmuts, 0 - joodsorthodox, 1 - voorjaarsdooi, 8 - dennennaalden, 13 - ?
 
+
+
+assignment 1  what coming on the question mark (1) a 0 - dubio 1 - baron 2 - bunch 3 - riser 4 - series 5 -  (1) b 0 - bishop's hat 0 - Jewish Orthodox 1 - spring thaw 8 - pine needles 13 -   
+
+a : a
+b : b
+baron : baron
+dubio : dubio
+ 
+bisschopsmuts : bishop's hat
+bosje : bunch
+dennennaalden : pine needles
+het : the
+joodsorthodox : Jewish Orthodox
+komt : coming
+op : on
+opgave : assignment
+reeks : series
+risee : riser
+voorjaarsdooi : spring thaw
+vraagteken : question mark
+wat : what

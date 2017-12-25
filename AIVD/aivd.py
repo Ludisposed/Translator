@@ -33,15 +33,11 @@ def translate(words):
     return text, '\n'.join(sorted(list(vocabularies_s)) + [' '] + sorted(list(vocabularies_d)))
 
 if __name__ == "__main__":
-    if len(sys.argv) >= 2:
-        if 10 <= int(sys.argv[1]) <= 41:
-            filename = 'opgaves/{}.txt'.format(sys.argv[1])
-        elif 0 <= int(sys.argv[1]) < 10:
-            filename = 'opgaves/0{}.txt'.format(sys.argv[1])
-        else:
-            filename = 'opgaves/00.txt'
+    if len(sys.argv) >= 2 and 0 <= int(sys.argv[1]) <= 41:
+        filename = 'opgaves/{:02d}.txt'.format(int(sys.argv[1]))
     else:
         filename = 'opgaves/00.txt'
+
     words = readfile(filename)
     text, vocabularies = translate(words)
     writefile(filename, text, vocabularies)
